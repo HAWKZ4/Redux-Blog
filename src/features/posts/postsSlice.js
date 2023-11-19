@@ -155,7 +155,6 @@ export const {
   selectAll: selectAllPosts,
   selectById: selectPostById,
   selectIds: selectPostIds,
-  // Pass in a selector that returns the posts slice of state (name of the slice)
   // The state here means contain the redux state
 } = postsAdapter.getSelectors(
   (state) => selectPostsData(state) ?? initialState
