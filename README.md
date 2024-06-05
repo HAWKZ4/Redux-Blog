@@ -2,7 +2,7 @@
 
 ![localhost_3000_ (2)](https://github.com/HAWKZ4/Redux-Blog/assets/108879264/2e5b002f-430e-42ac-bb8d-d735592420e9)
 
-Welcome to our **Blog Application**!
+Welcome to **Blog Application**!
 
 This project is built using React and Redux Toolkit, designed to advance global state management.
 <br/>
