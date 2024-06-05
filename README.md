@@ -73,7 +73,3 @@ Once the application is running, you can:
 1. **Create a Post**: Click on the "Create Post" button and fill in the required fields.
 
 2. **Interact with a Post**: Click on any of the interaction buttons (like, love, coffee, wow, rocket) to increase the count for that specific post.
-
-## 📄 License
-
-This project is for learning purposes and does not include licensing information.
