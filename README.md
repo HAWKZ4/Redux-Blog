@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Blog Application with React and Redux Toolkit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![localhost_3000_ (2)](https://github.com/HAWKZ4/Redux-Blog/assets/108879264/2e5b002f-430e-42ac-bb8d-d735592420e9)
 
-## Available Scripts
+Welcome to **Blog Application**!
 
-In the project directory, you can run:
+This project is built using React and Redux Toolkit, designed to advance global state management.
+<br/>
+It allows users to create posts and interact with other posts through various interaction buttons.
 
-### `npm start`
+## 📋 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- **Create Posts**: Users can create new blog posts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interact with Posts**: Users can interact with posts using buttons (like, love, coffee, wow, rocket).
 
-### `npm run build`
+- **Responsive Design**: The application is responsive and works well on different devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Mock Backend**: Utilizes `json-server` as a mock backend with a local `db.json` file to store dummy data for posts and users.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running, follow these simple steps.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Make sure you have the following installed on your system:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/HAWKZ4/Redux-Blog
+cd Redux-Blog
+```
 
-## Learn More
+### Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Start the JSON Server
 
-### Code Splitting
+In one terminal, run the following command to start the mock backend server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+json-server --watch data/db.json --port 3500
+```
 
-### Analyzing the Bundle Size
+### Start the React app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In another terminal, run the following command to start the React application:
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The app should now be running at `http://localhost:3000`.
 
-### Advanced Configuration
+## 🚀 Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Once the application is running, you can:
 
-### Deployment
+1. **Create a Post**: Click on the "Create Post" button and fill in the required fields.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. **Interact with a Post**: Click on any of the interaction buttons (like, love, coffee, wow, rocket) to increase the count for that specific post.
