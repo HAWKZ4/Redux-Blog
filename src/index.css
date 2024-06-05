@@ -28,7 +28,7 @@ header {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   background-color: purple;
   color: whitesmoke;
   position: sticky;
@@ -49,12 +49,14 @@ nav ul li {
   margin-right: 1rem;
 }
 
-nav a, nav a:visited {
+nav a,
+nav a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover,
+nav a:focus {
   text-decoration: underline;
 }
 
@@ -102,13 +104,13 @@ textarea {
   font-size: 1rem;
 }
 
-.postCredit a, 
+.postCredit a,
 .postCredit a:visited {
   margin-right: 0.5rem;
   color: black;
 }
 
-.postCredit a:hover, 
+.postCredit a:hover,
 .postCredit a:focus {
   color: hsla(0, 0%, 0%, 0.75);
 }
@@ -128,4 +130,28 @@ textarea {
 .deleteButton {
   background-color: palevioletred;
   color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .Header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .Header h1 {
+    font-size: 2.5rem;
+  }
+  article {
+    text-align: center;
+  }
+  article h2 {
+    font-size: 2rem;
+  }
+  article p {
+    font-size: 1.5rem;
+  }
+  ul,
+  section {
+    padding: 20px;
+  }
 }
