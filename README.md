@@ -13,7 +13,6 @@ It allows users to create posts and interact with other posts through various in
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## ✨ Features
 
